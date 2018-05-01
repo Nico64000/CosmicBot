@@ -1,14 +1,16 @@
 {
- "name": "CosmicBot",
- "version": "1.0.0",
- "description": "",
- "main": "main.js",
- "scripts": {
-   "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "cosmicbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "cosmic_nico",
-  "license": "ISC",
-  "dependencies": {
-   "discord.js": "^11.2.1"
-  }
+  "license": "ISC"
 }
